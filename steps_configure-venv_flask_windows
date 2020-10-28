@@ -1,0 +1,12 @@
+#1 Create environment
+mkdir myproject
+cd myproject
+py -3 -m venv venv
+
+#2 Activate environment
+venv\Scripts\activate
+
+#3 Install Flask
+pip install Flask
+
+Reference: https://dev.to/sahilrajput/install-flask-and-create-your-first-web-application-2dba
